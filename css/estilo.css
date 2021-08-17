@@ -1,0 +1,838 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+a{
+    text-decoration: none; 
+    color:#080808;
+}
+a:hover{
+    color:#fecc50;
+}
+.nav0{
+    background-color:#1e0521;
+    height: 80px;
+    width: 100%;
+    margin-top: 0px;
+
+}
+
+.logo{
+    position: absolute;
+    background-image: url('../fotos/logo.png.png');
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 16px;
+    
+}
+.nav1{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.nav-item{
+    font-family: 'Sansita', sans-serif;
+    
+}
+.nav-item a{
+    color:white;
+}
+.nav-item a:hover{
+    color:goldenrod;
+}
+
+.nav-item {
+    padding-right: 80px;
+}
+
+.header0{
+    height: 500px;
+    width: 100%;
+    background-image: url('../fotos/header.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+.separadori{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-image: url('../fotos/varias/relleno/neon1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+
+.distribuidora{
+    flex:50%;
+    text-align: center;
+    color: honeydew;
+    
+
+}
+.distribuidora h1{
+    font-size: 22px;
+    padding-top: 10px;
+
+}
+
+.mediospago{
+    flex: 50%;
+    text-align: center;
+    color: honeydew;
+}
+
+.mediospago h1{
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+
+.ai1{
+    height: 1500px;
+    width: 100%;
+    background-color:#fecc50;
+}
+
+
+.titulocategoria{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: 'Sansita', sans-serif;
+}
+
+
+.flexcategoria0{
+    display: flex;
+    height: 580px;
+
+}
+
+.flexcatergoriai0{
+    flex: 50%;
+    background-image:url('../fotos/categorias/vodka.png');
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.flexcategoriai1{
+    flex:50%;
+    background-image:url('../fotos/categorias/aperitivo.png');
+    background-position:left;
+    background-size: cover;
+}
+
+.flexcatergoriai2{
+
+    flex:50%;
+    background-image:url('../fotos/categorias/gin.png');
+    background-position:left;
+    background-size: cover;
+}
+
+.flexcategoriai3{
+    flex: 50%;
+    background-image:url('../fotos/categorias/whisky.png');
+    background-position:left;
+    background-size: cover;
+}
+.flexcategoriat{
+    box-sizing: border-box;
+    width: 250px;
+    height:40px;
+    background-color: whitesmoke;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40%;
+    text-align: center;
+    opacity: 80%;
+
+}
+
+
+.flexcategoriat__1 a{
+    font-weight: 500;
+    font-size: 27px;
+}
+
+.flexcategoriat:hover{
+    transition: 0.5s;
+    width: 260px;
+    opacity:100%;  
+    
+}
+
+.ai2{
+    width: 100%;
+    height: 950px;
+    background-color: #ff6d69;
+}
+
+.titulotodascat{
+    text-align: center;
+    color: #080808;
+    padding-top: 70px;
+}
+
+.titulotodascat{
+    font-family: 'Sansita', sans-serif;
+}
+    
+.todascat{
+    width: 70%;
+    height: 800px;
+    margin-top: 80px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    column-gap: 10px; 
+}
+
+.todascat00{
+    flex:35%;
+}
+
+.todascat0{
+    height: 300px;
+    width: 100%;
+    background-image: url('../fotos/todascategorias/aperotivo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.todascat0:hover{
+    opacity:90%;
+    
+}
+.todascat1{
+    margin-top: 10px;  
+    height: 300px;
+    width: 100%;
+    background-image: url('../fotos/todascategorias/ron.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.todascat1:hover{
+    opacity:90%
+}
+
+.todascat2{
+    height: 300px;
+    width: 100%;
+    background-image: url('../fotos/todascategorias/gin.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.todascat2:hover{
+    opacity:90%
+}
+
+.todascat3{
+    margin-top: 10px;  
+    height: 300px;
+    width: 100%;
+    background-image: url('../fotos/todascategorias/vodka.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.todascat3:hover{
+    opacity:90%
+}
+
+.todascat4{
+    height: 300px;
+    width: 100%;
+    background-image: url('../fotos/todascategorias/licor.png');
+    background-position-x: -50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.todascat4:hover{
+    opacity:90%
+}
+.todascat5{
+    margin-top: 10px;  
+    height: 300px;
+    width: 100%;
+    background-image: url('../fotos/todascategorias/whisky.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.todascat5:hover{
+    opacity:90%
+}
+
+.todascatt{
+    box-sizing:border-box;
+    width:100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80%;  
+   
+
+}
+
+.todascatt a{
+    height: fit-content;
+    background-color: black;
+    color:blanchedalmond;
+    font-size: 20px;
+}
+
+
+.ai3{
+    width: 100%;
+    height: 500px;
+    background-image: url('../fotos/varias/relleno/neon1.png');
+    display: flex;
+    align-items: center;
+}
+
+.form0{
+    height: 400px;
+    width: 600px;
+    background-color: #1e0521;
+    opacity: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    text-align: center;
+
+}
+.form0 h1{
+    padding:50px ;
+    font-family: 'Sansita',sans-serif;
+    color:antiquewhite;
+    font-size: 30px;
+
+}
+
+.form-group{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: antiquewhite;
+}
+.form-control{ 
+    width: 70%;
+}
+
+.ai4{
+    height: 600px;
+    width: 100%;
+    background-color: #080808;
+    display: flex;
+}
+.form1{
+    flex:50%
+}
+.form1texto{
+    padding-top: 100px;
+    text-align: center;
+    color: aliceblue;
+}
+ul{
+    list-style: none;
+    
+}
+.form-group{
+    margin-top: 20px;
+}
+.btn.btn-primary{
+    margin-top: 20px ;
+    background-color: black;
+    opacity: 80%;
+    color:blanchedalmond;
+    border-style: none;
+}
+
+.mapa{
+    flex: 50%;
+}
+.iframemap{
+    text-align: center;
+    margin-top: 90px;
+}
+
+/*PRODUCTOS*/
+
+.header1{
+    width: 100%;
+    height: 100px;
+    background-color: #fecc50;
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+
+}
+.header1 h1{
+    font-family:'sansita',sans-serif;
+    font-size: 50px;
+    color: #fefdfe;
+}
+
+.vodka0{
+    height: 1700px;
+    width: 100%;
+    background-color:#080808;
+    
+}
+
+#seccion0 {
+    display: flex;
+    column-gap: 3px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 80px;
+    
+
+}
+
+
+#titulobebidas{
+    
+    text-align: center;
+    color: #fefdfe;
+    padding-top: 30px;
+    background-image: url('../fotos/varias/relleno/neon1.png');
+    background-position: center;
+    background-position: top;
+    padding-bottom: 30px;
+
+}
+
+
+.col{
+    flex:33%;
+   
+}
+
+.wyh{
+    width:100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+
+.textof{
+    width: 100%;
+    height: 470px;
+    background-color:whitesmoke;
+    border-top:lightgray;
+    border-style:solid;
+    border-left: transparent;
+    border-right:transparent;
+    border-bottom: transparent;
+    border-width: 1px;
+    text-align: center;
+}
+
+.titulof{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:400;
+}
+
+.btn.btn-dark{
+    box-sizing: border-box;
+    width: 100px;
+    height: 35px;
+    padding:3px;
+    opacity: 30%;
+}
+.btn.btn-dark:hover{
+    opacity: 70%;
+
+}
+
+.gin0{
+    height: 1200px;
+    width: 100%;
+    background-color:#080808;
+
+}
+
+
+
+.licor0{ 
+    height: 1700px;
+    width: 100%;
+    background-color:#080808;
+}
+
+.whisky0{
+
+    height: 1250px;
+    width: 100%;
+    background-color:#080808;
+
+}
+
+
+.carrito0{
+    height: 600px;
+    width: 100%;
+   background-color:#080808;
+}
+
+.carritot{
+    color:#fefdfe;
+    text-align: center;
+    text-justify: center;
+    padding-top: 30px;
+    
+}
+.carrito0 h1{
+    font-size: 22px;
+}
+
+
+.listado0{
+  
+    background-color:#fecc50;
+    width: 60%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.listado1{   
+    display: flex;
+
+}
+
+.listadotxt{
+    flex:50%;
+}
+
+.listadoimg{
+    flex:50%;
+}
+
+
+.productosf {
+    object-fit:cover;
+    width: 100%;
+    height:300px;
+}
+
+.productosf:hover{
+    transform: scale(1);
+    transition: 1s;
+}
+
+.formfooter{
+    padding-top: -100px;
+    width: 100%;
+    height: 320px;
+    background-color: black;
+}
+
+
+@media only screen and (max-width: 480px){
+
+   
+    .logo{
+        position: relative;
+        width: 220px;
+        display:inline-block;
+        margin-left: 10%;
+
+    }
+    
+    .nav-item{
+        width: 100%;
+        display:inline-block;
+        height:80px;
+        text-align: center;
+        font-size: 25px;
+
+    }
+    .nav1{
+        padding-right: 0px;
+    }
+    .nav0{
+        height: auto;
+    
+    }
+    .flexcategoria0{
+        flex-wrap: wrap;
+    }
+   .flexcatergoriai0{
+       flex:100%;
+       height: 1fr;
+   }
+   .flexcatergoriai1{
+         flex:100%;
+         height: 1fr;
+   }
+   .flexcatergoriai2{
+    flex:100%;
+    height: 1fr;
+}
+.flexcatergoriai3{
+    flex:100%;
+    height: 1fr;
+}
+.flexcategoriat{
+    margin-top: 110px;
+
+}
+.ai2{
+    height: 2100px;
+}
+.todascat{
+    flex-wrap: wrap;
+    width: 100%;
+    
+
+}
+.todascat00{
+    flex:100%;
+    
+}
+.todascatt{
+    padding-top: 20%;
+}
+.todascat1{
+    margin-top: 0px;
+
+}
+.todascat3{
+    margin-top: 0px;
+}
+.todascat5{
+    margin-top: 0px;
+}
+.ai4{
+    flex-wrap: wrap;
+    height: 1000px;
+}
+
+.form1{
+    flex:100%;
+}
+.mapa{
+    flex:100%;
+}
+iframe{
+    width: 300px;
+    height: 300px;
+}
+.distribuidora h1{
+
+    font-size: 15px;
+
+}
+.ai0{
+    height: 80px;
+}
+.mediospago h1{
+    
+    font-size: 15px;
+
+}
+
+ }
+
+
+ /* CSS carrito */
+
+ .submenu {
+    position: relative;
+}
+
+.submenu #carrito{
+    display: none;
+}
+
+.submenu #carrito thead{
+    position: fixed;
+    background-color: #e9ecefd4;
+}
+
+#vaciar-carrito {
+    top: 72px;
+    right: 34px;
+    position: fixed;
+    width: 472px;
+    background-color: #e9ecefd4;
+    display: none;
+}
+
+
+.submenu:hover #carrito{
+    background-color: white;
+    border-radius: 4px;
+    display: block;
+    max-height: 500px;
+    min-width: 522px;
+    overflow-y: scroll;
+    position: absolute;
+    padding: 32px 10px 20px;
+    right:-20px;
+    top:100%;
+    z-index: 1;
+}
+
+.submenu:hover #vaciar-carrito {
+    display: block;
+}
+
+.cantidad-carrito {
+    position: relative;
+}
+
+.productos-agregados {
+    position: absolute;
+    top: 0px;
+    left: -95%;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9fafb;
+    background-color: #797070;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.borrar-producto {
+    background-color: red;
+    border-radius: 100%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a.borrar-producto:hover {
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    padding: 4px 9px;
+}
+
+td:first-child {
+    padding-left: 0;
+}
+
+td:last-child {
+    padding-right: 0;
+}
+
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+tr:last-child td {
+    border: none;
+}
+
+.animacion{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.animacion2{
+
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.animacion3{
+
+        opacity: 0;
+        transition: all 1s;
+
+}
+
+.mostrarArriba3{
+    animation: mostrarArriba3 5s;
+}
+
+
+
+.mostrarArriba{
+    animation: mostrarArriba 2s;
+}
+
+.mostrarArriba2{
+
+    animation: mostrarArriba2 3s;
+
+
+}
+@keyframes mostrarArriba{
+
+    0%{
+
+        transform: translateY(-60px);
+    }
+
+    100%{
+
+        transform:translateY(0);
+    }
+
+
+}
+
+@keyframes mostrarArriba2{
+
+
+    0%{
+
+        transform: translateX(-120px);
+    }
+
+    100%{
+
+        transform:translateX(0);
+    }
+
+
+
+}
+
+@keyframes mostrarArriba3{
+
+    0%{
+
+        transform: translateX(120px);
+    }
+
+    100%{
+
+        transform:translateX(0);
+    }
+
+
+}
