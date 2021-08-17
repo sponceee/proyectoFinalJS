@@ -560,7 +560,7 @@ ul{
         position: relative;
         width: 220px;
         display:inline-block;
-        margin-left: 10%;
+        margin-left: 25%;
 
     }
     
@@ -570,7 +570,13 @@ ul{
         height:80px;
         text-align: center;
         font-size: 25px;
+        padding-left: 20%;
 
+    }
+
+    .nav{
+        padding-left: inherit;
+       
     }
     .nav1{
         padding-right: 0px;
@@ -656,6 +662,38 @@ iframe{
     font-size: 15px;
 
 }
+
+#seccion0{
+    flex-wrap: wrap; 
+}
+.col{
+    flex:100%;
+}
+
+.vodka0{
+
+    height:auto;
+    padding-bottom: 80px;
+}
+
+.gin0{
+
+        height:auto;
+        padding-bottom: 80px;
+    }
+
+
+.licor0 {
+
+    height:auto;
+    padding-bottom: 80px;
+}
+.whisky0{
+
+    height:auto;
+    padding-bottom: 80px;
+}
+
 
  }
 
